@@ -8,7 +8,7 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+[photo of my breadboard setup here](https://github.com/rec285/IDD-Fa18-Lab1/blob/master/%25TjRBDY3QCO%25vnap%25sAe%2Bw.jpg)
 
 
 ## Part B. Manually Blink a LED
@@ -37,13 +37,13 @@ A resistor of addequate resistance should be added to reduce the voltage across 
 At a delay of about 10, you can no longer perceive the blinking. To prove it is blinking, move the LED rapidly in front of you and you will see the LED lit up in spots along the path instead of being continuously on.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-
+[link to RyanBlink](https://github.com/rec285/IDD-Fa18-Lab1/blob/master/%25TjRBDY3QCO%25vnap%25sAe%2Bw.jpg)
 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[link to your video here](https://www.youtube.com/watch?v=kRT70IpYGFc&feature=youtu.be)
 
 
 ## Part D. Manually fade an LED
@@ -62,21 +62,30 @@ analogWrite() can set a value in between the range of the high and low values wh
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+[photo 1](https://github.com/rec285/IDD-Fa18-Lab1/blob/master/C27s0ZwuSIqoYWnF51CTiw.jpg)
+[photo 2](https://github.com/rec285/IDD-Fa18-Lab1/blob/master/UxEomkh4Svefdt5gU0e7BQ.jpg)
+[diagram](https://github.com/rec285/IDD-Fa18-Lab1/blob/master/J0lfBY%25OQaOVowN%2Bv15YJg.jpg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+Yes! There is a lot of computation in this device because it is a computer. The computation primamrily happens in the processors in the center of the green motherboard. There is also computation in a smaller chip under the screen. Inside the computer, power comes from the battery and is then sent to the components where the processor takes any inputs from the keyboard or ports or any other sensors and computes what to do. The fan keeps the computer cool and the processor sends information to the screen to be displayed.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+Yes, the keyboard and trackpad are sensors and they work as a collection of buttons and the trackpad is a touch capacitor that responds to touch in the electromagnetic field. It is then sent to the I/O bus to be processed by the CPU and then sent out to other output components.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+There is an battery powering the computer and is supplied by a charger through one of the ports on the computer. The power is regulated on board with a transformer and outputs voltages between ~2V and ~40V.
 
 **d. Is information stored in your device? Where? How?**
+Information is stored on the device in the solid state drive/disk as well as in memory. They are chips on the motherboard.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
+I used the multimeter to find a point on the motherboard that had a consistent voltage of about 2V to be able to power the LED but not burn it. I then placed the LED in the breadboard and used two jumper wires on the breadboard to connect to the device and complete the circut so that the current flows through the LED.
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
+[video](https://youtu.be/oUdTV-QPLNc)
 
 **Include any schematics or photos in your lab write-up.**
